@@ -1,0 +1,19 @@
+{
+    "name": "efperez/yappy-bg-para-woocommerce",
+    "description": "starting example",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Efrain Perez",
+            "email": "efperez@bgeneral.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yahnis-elsts/plugin-update-checker": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}

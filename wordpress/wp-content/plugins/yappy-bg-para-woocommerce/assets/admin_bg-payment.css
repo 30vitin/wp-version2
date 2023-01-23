@@ -1,0 +1,30 @@
+:root {
+  --bg-color-bg-blue: #004c97;
+}
+
+.notice.notice-bg.notice-info {
+  border-left-color: var(--bg-color-bg-blue);
+}
+
+.yappy-button-config {
+  margin-left: 230px;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  color: #444 !important;
+}
+
+@media screen and (max-width: 782px) {
+  .yappy-button-config {
+    margin-left: 0;
+  }
+}
+
+.yappy-button-position {
+  position: relative;
+  top: 17px;
+  left: 3px;
+}
+
+.bg-ssl-flag {
+  display: none !important;
+}
